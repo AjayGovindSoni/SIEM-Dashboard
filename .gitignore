@@ -1,0 +1,47 @@
+# ── Secrets — NEVER commit these ──────────────────────────────
+.env
+*.env
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ── Database ──────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Node / Vite ───────────────────────────────────────────────
+node_modules/
+**/node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+dist/
+.vite/
+.cache/
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── IDE / Editor ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo

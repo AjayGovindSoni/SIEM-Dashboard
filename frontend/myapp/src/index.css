@@ -1,0 +1,47 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0f1117;
+  color: #e2e8f0;
+}
+
+body {
+  display: block;
+  place-items: unset;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: unset;
+  font-weight: unset;
+  line-height: unset;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+select {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
